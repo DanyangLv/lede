@@ -180,7 +180,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-filetransfer=y
           CONFIG_PACKAGE_luci-app-firewall=y
           CONFIG_PACKAGE_luci-app-guest-wifi=y
-          CONFIG_PACKAGE_luci-app-nlbwmon=y
+          # CONFIG_PACKAGE_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-ntpc=y
           CONFIG_PACKAGE_luci-app-rp-pppoe-server=y
           CONFIG_PACKAGE_luci-app-qos=y
