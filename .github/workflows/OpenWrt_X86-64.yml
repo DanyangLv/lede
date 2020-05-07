@@ -10,9 +10,9 @@
 name: openwrt 编译X86 - 64 固件 V1
 
 on:
-  # push:
-  #   branches: 
-  #     - master
+  push:
+    branches: 
+      - master
   schedule:
     - cron: 0 20 * * *
   release:
