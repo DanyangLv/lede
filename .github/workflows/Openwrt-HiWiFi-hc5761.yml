@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: openwrt 编译HiWiFi HC5761 (极路由2)固件 V5
+name: openwrt 编译HiWiFi HC5761 (极路由2)固件 V6
 
 on:
   push:
@@ -108,8 +108,8 @@ jobs:
           # 编译HiWiFi HC5761 (极路由2)固件:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
-          CONFIG_TARGET_ramips_mt7620a=y
-          CONFIG_TARGET_ramips_mt7620a_DEVICE_hiwifi_hc5761=y
+          CONFIG_TARGET_ramips_mt7620=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_hc5761=y
           EOF
           
           # 固件压缩:
