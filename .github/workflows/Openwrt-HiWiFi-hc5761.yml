@@ -152,8 +152,8 @@ jobs:
           # CONFIG_PACKAGE_luci-app-accesscontrol=y
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
           # CONFIG_PACKAGE_luci-app-amule=y
-          CONFIG_PACKAGE_luci-app-arpbind=y
-          CONFIG_PACKAGE_luci-app-autoreboot=y
+          # CONFIG_PACKAGE_luci-app-arpbind=y
+          # CONFIG_PACKAGE_luci-app-autoreboot=y
           # CONFIG_PACKAGE_luci-app-baidupcs-web=y
           # CONFIG_PACKAGE_luci-app-dnsforwarder=y
           # CONFIG_PACKAGE_luci-app-dockerman=y
@@ -179,10 +179,10 @@ jobs:
           # CONFIG_PACKAGE_luci-app-usb-printer=y
           # CONFIG_PACKAGE_luci-app-ttyd=y
           # CONFIG_PACKAGE_luci-app-v2ray-server=y
-          CONFIG_PACKAGE_luci-app-vlmcsd=y
+          # CONFIG_PACKAGE_luci-app-vlmcsd=y
           # CONFIG_PACKAGE_luci-app-verysync=y
-          CONFIG_PACKAGE_luci-app-vsftpd=y
-          CONFIG_PACKAGE_luci-app-webadmin=y
+          # CONFIG_PACKAGE_luci-app-vsftpd=y
+          # CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
           # CONFIG_PACKAGE_luci-app-xlnetacc=y
           # CONFIG_PACKAGE_luci-app-zerotier=y
