@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: openwrt 编译raspberry pi4固件 v3
+name: openwrt 编译raspberry pi4固件 v3.0
 
 on:
   push:
@@ -61,8 +61,6 @@ jobs:
           # mkdir openwrt-packages
           # cd openwrt-packages
           # git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
-          # cd ../..
-          # git pull
 
       - name: Update feeds
         run: |
